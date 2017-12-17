@@ -1,6 +1,6 @@
-package productions.darthplagueis.exercisesimplejsonobjects.model;
+package productions.darthplagueis.exercisesimplejsonobjects.model.colors;
 
-import java.util.List;
+import productions.darthplagueis.exercisesimplejsonobjects.model.colors.Code;
 
 /**
  * {
@@ -62,15 +62,25 @@ import java.util.List;
  }
  */
 
-public class Code {
-    private List<Integer> rgba;
-    private String hex;
+public class Color {
+    private String color;
+    private String category;
+    private String type;
+    private Code code;
 
-    public List<Integer> getRgba() {
-        return rgba;
+    public String getColor() {
+        return color;
     }
 
-    public String getHex() {
-        return hex;
+    public String getCategory() {
+        return category;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public Code getCode() {
+        return code;
     }
 }

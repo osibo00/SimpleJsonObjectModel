@@ -1,6 +1,8 @@
-package productions.darthplagueis.exercisesimplejsonobjects.model;
+package productions.darthplagueis.exercisesimplejsonobjects.model.colors;
 
 import java.util.List;
+
+import productions.darthplagueis.exercisesimplejsonobjects.model.colors.Color;
 
 /**
  * {
